@@ -56,6 +56,184 @@
         "decompile",
         "api-extraction"
       ]
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "Software development methodology: brainstorming, planning, TDD, debugging, code review, and subagent workflows.",
+      "version": "7.0.2",
+      "author": {
+        "name": "Jesse Vincent"
+      },
+      "category": "development",
+      "keywords": [
+        "tdd",
+        "debugging",
+        "planning",
+        "subagents",
+        "workflow"
+      ],
+      "homepage": "https://github.com/obra/superpowers",
+      "license": "MIT"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "description": "Engineering skills for requirements grilling, specs, tickets, TDD, debugging, code review, domain modelling, and productivity.",
+      "version": "1.3.2",
+      "author": {
+        "name": "Matt Pocock"
+      },
+      "category": "development",
+      "keywords": [
+        "engineering",
+        "tdd",
+        "code-review",
+        "requirements",
+        "productivity"
+      ],
+      "homepage": "https://github.com/mattpocock/skills",
+      "license": "MIT"
+    },
+    {
+      "name": "ecc",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
+      },
+      "description": "Everything Claude Code: agents, skills, commands, hooks, rules, security and engineering workflows. Official upstream source; not mirrored.",
+      "version": "2.2.3",
+      "author": {
+        "name": "Affaan Mustafa"
+      },
+      "category": "development",
+      "keywords": [
+        "agents",
+        "skills",
+        "hooks",
+        "security",
+        "tdd",
+        "workflow"
+      ],
+      "homepage": "https://github.com/affaan-m/ECC",
+      "license": "MIT"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "description": "UI/UX design intelligence with searchable styles, color palettes, typography, charts, accessibility and stack-specific guidance.",
+      "version": "2.15.0",
+      "author": {
+        "name": "Next Level Builder"
+      },
+      "category": "design",
+      "keywords": [
+        "ui",
+        "ux",
+        "design",
+        "accessibility",
+        "typography",
+        "frontend"
+      ],
+      "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    {
+      "name": "document-skills",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "description": "Anthropic document skills for Excel, Word, PowerPoint and PDF processing.",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "productivity",
+      "keywords": [
+        "documents",
+        "pdf",
+        "docx",
+        "xlsx",
+        "pptx"
+      ]
+    },
+    {
+      "name": "example-skills",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "description": "Anthropic example skills for design, MCP building, communications, web testing and artifact creation.",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "development",
+      "keywords": [
+        "examples",
+        "mcp",
+        "design",
+        "web-testing"
+      ]
+    },
+    {
+      "name": "claude-api",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "description": "Claude API and SDK documentation skill.",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "development",
+      "keywords": [
+        "api",
+        "sdk",
+        "anthropic"
+      ]
+    },
+    {
+      "name": "academy-guide",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "description": "Recommends relevant Claude Academy courses and learning resources.",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "education",
+      "keywords": [
+        "learning",
+        "academy",
+        "tutorials"
+      ]
+    },
+    {
+      "name": "discernment-nudge",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "description": "Adds concise follow-up questions to encourage verification and critical thinking.",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "productivity",
+      "keywords": [
+        "critical-thinking",
+        "verification",
+        "reasoning"
+      ]
     }
   ]
 }
