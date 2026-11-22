@@ -1,12 +1,8 @@
 {
   "name": "teach-me",
-  "displayName": "Teach Me",
   "description": "A structured, adaptive tutor for learning technical and non-technical topics.",
   "version": "1.0.0",
   "author": {
     "name": "mascatunike"
-  },
-  "skills": [
-    "./skills/teach-me"
-  ]
+  }
 }
