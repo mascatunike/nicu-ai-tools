@@ -1,0 +1,12 @@
+{
+  "name": "interview",
+  "displayName": "Requirements Interview",
+  "description": "A focused interview that turns an initial idea into a clear requirements specification.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mascatunike"
+  },
+  "skills": [
+    "./skills/interview"
+  ]
+}
