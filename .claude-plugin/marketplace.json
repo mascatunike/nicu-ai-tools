@@ -1,0 +1,43 @@
+{
+  "name": "nicu-ai-tools",
+  "owner": {
+    "name": "mascatunike"
+  },
+  "metadata": {
+    "description": "Personal Claude plugins and skills maintained by mascatunike."
+  },
+  "plugins": [
+    {
+      "name": "teach-me",
+      "source": "./plugins/teach-me",
+      "description": "A structured, adaptive tutor that teaches topics through diagnosis, guided practice, and mastery checks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "mascatunike"
+      },
+      "category": "education",
+      "keywords": [
+        "learning",
+        "tutor",
+        "education",
+        "study"
+      ]
+    },
+    {
+      "name": "interview",
+      "source": "./plugins/interview",
+      "description": "A requirements interviewer that asks focused questions and produces a clear, validated specification.",
+      "version": "1.0.0",
+      "author": {
+        "name": "mascatunike"
+      },
+      "category": "productivity",
+      "keywords": [
+        "requirements",
+        "interview",
+        "planning",
+        "specification"
+      ]
+    }
+  ]
+}
