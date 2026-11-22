@@ -26,7 +26,7 @@ If anything is missing, follow the installation instructions in `${CLAUDE_PLUGIN
 
 ### Phase 1: Verify and Install Dependencies
 
-Before decompiling, confirm that the required tools are available — and install any that are missing.
+Before decompiling, confirm that the required tools are available. If anything is missing, explain the installer effects and obtain explicit user approval before running any install script. Never install dependencies automatically without confirmation.
 
 **Action**: Run the dependency check script.
 
@@ -43,7 +43,7 @@ The output contains machine-readable lines:
 - `INSTALL_REQUIRED:<dep>` — must be installed before proceeding
 - `INSTALL_OPTIONAL:<dep>` — recommended but not blocking
 
-**If required dependencies are missing** (exit code 1), install them automatically:
+**If required dependencies are missing** (exit code 1), ask the user for permission before installing them:
 
 ```bash
 bash ${CLAUDE_PLUGIN_ROOT}/skills/android-reverse-engineering/scripts/install-dep.sh <dep>
