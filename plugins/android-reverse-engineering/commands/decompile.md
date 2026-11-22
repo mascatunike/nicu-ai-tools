@@ -28,7 +28,7 @@ bash ${CLAUDE_PLUGIN_ROOT}/skills/android-reverse-engineering/scripts/check-deps
 
 Parse the output looking for `INSTALL_REQUIRED:` and `INSTALL_OPTIONAL:` lines.
 
-**If required dependencies are missing**, install them one by one:
+**If required dependencies are missing**, explain what is missing and ask the user for explicit permission before running any installer. Never run an installer without confirmation. After approval, install them one by one:
 
 ```bash
 bash ${CLAUDE_PLUGIN_ROOT}/skills/android-reverse-engineering/scripts/install-dep.sh java
