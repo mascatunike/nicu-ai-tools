@@ -13,6 +13,10 @@ This catalog links to upstream projects. They remain owned and licensed by their
 - [trailofbits/skills](https://github.com/trailofbits/skills) — application security and secure development; check per-skill license.
 - [anthropics/skills](https://github.com/anthropics/skills) — official skill examples, frontend design, web app testing and document workflows.
 
+
+- [wshobson/agents](https://github.com/wshobson/agents) — large Claude Code plugin collection; this marketplace now exposes backend-development, frontend-mobile-development and security-scanning as separate plugins.
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Anthropic's work plugins; this marketplace now exposes its engineering plugin.
+
 ## Automotive and electronics
 There is no single widely established Claude skill pack that can replace OEM service information or component datasheets. Original local skills are included for automotive diagnostics and electronics engineering. Pair them with authoritative service manuals, wiring diagrams, datasheets and applicable standards.
 
