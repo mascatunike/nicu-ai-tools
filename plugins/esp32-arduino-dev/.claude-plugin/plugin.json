@@ -1,0 +1,6 @@
+{
+  "name": "esp32-arduino-dev",
+  "description": "A rigorous ESP32 DevKit V1 firmware workflow for Arduino IDE and Arduino CLI, with hardware-aware GPIO checks, reproducible builds, serial diagnostics, and explicit flashing approval.",
+  "version": "1.0.0",
+  "author": { "name": "mascatunike" }
+}
