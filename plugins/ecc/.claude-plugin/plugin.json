@@ -1,0 +1,9 @@
+{
+  "name": "ecc",
+  "version": "2.2.3-local.1",
+  "description": "Curated local subset of Everything Claude Code engineering practices: TDD, debugging, code review, security, and workflow discipline.",
+  "author": { "name": "Affaan Mustafa" },
+  "homepage": "https://ecc.tools",
+  "repository": "https://github.com/affaan-m/ECC",
+  "license": "MIT"
+}
