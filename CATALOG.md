@@ -15,6 +15,12 @@ This catalog links to upstream projects. The local folders created for some entr
 - [trailofbits/skills](https://github.com/trailofbits/skills) — application security and secure development; check per-skill license.
 - [anthropics/skills](https://github.com/anthropics/skills) — official skill examples, frontend design, web app testing and document workflows.
 
+## Embedded systems and microcontrollers
+- [ezrover/ESP32-AI-Agent-Skill](https://github.com/ezrover/ESP32-AI-Agent-Skill) — ESP32-family hardware guidance, GPIO validation and Arduino/ESP-IDF code generation. Added as an upstream reference; review its current license and prerequisites before direct installation.
+- [f2daz/esp-expert-mcp](https://github.com/f2daz/esp-expert-mcp) — ESP32/ESP8266 MCP diagnostics for GPIO conflicts, partitions, panic logs and chip information. Optional MCP server; requires Python 3.11+ and uv.
+- [doeslater/esp32-arduino](https://github.com/doeslater/esp32-arduino) — Arduino CLI workflow for compiling, flashing and debugging ESP32 sketches; narrower and focused on classic ESP32 DevKitC/WROOM-32.
+- Local [esp32-arduino-dev](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev) — curated workflow for ESP32 DevKit V1 + Arduino IDE/CLI, with GPIO/electrical safety checks, version-aware code, reproducible builds and explicit approval before flashing. Not a full mirror of the upstream projects.
+
 ## Automotive and electronics
 There is no single widely established Claude skill pack that can replace OEM service information or component datasheets. Original local skills are included for automotive diagnostics and electronics engineering. Pair them with authoritative service manuals, wiring diagrams, datasheets and applicable standards.
 
