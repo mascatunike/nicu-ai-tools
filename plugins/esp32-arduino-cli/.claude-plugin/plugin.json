@@ -1,0 +1,9 @@
+{
+  "name": "esp32-arduino-cli",
+  "description": "Upstream esp32-arduino skill adapted as a Claude plugin: transparent Arduino CLI compile/upload/monitor workflow for classic ESP32 DevKitC/WROOM-32.",
+  "version": "0.2.3",
+  "author": { "name": "doeslater" },
+  "keywords": ["esp32", "arduino", "arduino-cli", "compile", "upload", "serial-monitor", "firmware"],
+  "homepage": "https://github.com/doeslater/esp32-arduino",
+  "license": "MIT"
+}
