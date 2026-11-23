@@ -217,6 +217,28 @@
         "documentation"
       ],
       "homepage": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "name": "esp32-arduino-dev",
+      "source": "./plugins/esp32-arduino-dev",
+      "description": "Rigorous ESP32 DevKit V1 firmware workflow for Arduino IDE and Arduino CLI: GPIO and voltage safety, version-aware code, reproducible compilation, serial diagnostics, and explicit approval before flashing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "mascatunike"
+      },
+      "category": "development",
+      "keywords": [
+        "esp32",
+        "arduino",
+        "embedded",
+        "firmware",
+        "gpio",
+        "arduino-cli",
+        "debugging",
+        "iot"
+      ],
+      "homepage": "https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev",
+      "license": "MIT"
     }
   ]
 }
