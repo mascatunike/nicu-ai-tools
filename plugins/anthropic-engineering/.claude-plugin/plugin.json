@@ -1,0 +1,6 @@
+{
+  "name": "anthropic-engineering",
+  "version": "1.2.0",
+  "description": "Engineering workflows for standups, code review, architecture decisions, incident response, and technical documentation.",
+  "author": { "name": "Anthropic" }
+}
