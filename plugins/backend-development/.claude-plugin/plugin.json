@@ -1,0 +1,7 @@
+{
+  "name": "backend-development",
+  "version": "1.3.3",
+  "description": "Backend API design, GraphQL architecture, Temporal workflows, and test-driven backend development.",
+  "author": { "name": "Seth Hobson" },
+  "license": "MIT"
+}
