@@ -239,6 +239,98 @@
       ],
       "homepage": "https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev",
       "license": "MIT"
+    },
+    {
+      "name": "esp32-arduino-cli",
+      "source": "./plugins/esp32-arduino-cli",
+      "description": "Build, flash, and debug classic ESP32 sketches with Arduino CLI; transparent commands/output, board detection, serial diagnostics, and explicit upload approval.",
+      "version": "0.2.3",
+      "author": {
+        "name": "doeslater"
+      },
+      "category": "development",
+      "keywords": [
+        "esp32",
+        "arduino",
+        "arduino-cli",
+        "firmware",
+        "compile",
+        "upload",
+        "serial"
+      ],
+      "homepage": "https://github.com/doeslater/esp32-arduino",
+      "license": "MIT"
+    },
+    {
+      "name": "esp-expert",
+      "source": {
+        "source": "github",
+        "repo": "f2daz/esp-expert-mcp"
+      },
+      "description": "ESP32/ESP8266 firmware engineering with MCP diagnostics for GPIO conflicts, partitions, panic logs, chip information, and firmware configuration.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Felix Zösch"
+      },
+      "category": "development",
+      "keywords": [
+        "esp32",
+        "esp8266",
+        "arduino",
+        "gpio",
+        "mcp",
+        "diagnostics",
+        "firmware",
+        "embedded"
+      ],
+      "homepage": "https://github.com/f2daz/esp-expert-mcp",
+      "license": "MIT"
+    },
+    {
+      "name": "arduino-cli",
+      "source": {
+        "source": "github",
+        "repo": "lookfwd/arduino-cli-claude-plugin"
+      },
+      "description": "Arduino CLI plugin with commands and guidance for board detection, sketch creation, library management, compilation, and upload. Upstream project; review license and permissions before enabling.",
+      "version": "1.0.0",
+      "author": {
+        "name": "lookfwd"
+      },
+      "category": "development",
+      "keywords": [
+        "arduino",
+        "arduino-cli",
+        "esp32",
+        "embedded",
+        "compile",
+        "upload",
+        "libraries"
+      ],
+      "homepage": "https://github.com/lookfwd/arduino-cli-claude-plugin"
+    },
+    {
+      "name": "wokwi",
+      "source": {
+        "source": "github",
+        "repo": "wokwi/skills"
+      },
+      "description": "Wokwi embedded firmware simulation skills for ESP32 testing, scripted peripherals, debugging, and CI. Some workflows target ESP-IDF and require Wokwi tooling.",
+      "author": {
+        "name": "Wokwi"
+      },
+      "category": "development",
+      "keywords": [
+        "wokwi",
+        "esp32",
+        "simulation",
+        "firmware",
+        "testing",
+        "debugging",
+        "ci"
+      ],
+      "homepage": "https://github.com/wokwi/skills",
+      "license": "MIT"
     }
   ]
 }
