@@ -16,10 +16,13 @@ This catalog links to upstream projects. The local folders created for some entr
 - [anthropics/skills](https://github.com/anthropics/skills) — official skill examples, frontend design, web app testing and document workflows.
 
 ## Embedded systems and microcontrollers
-- [ezrover/ESP32-AI-Agent-Skill](https://github.com/ezrover/ESP32-AI-Agent-Skill) — ESP32-family hardware guidance, GPIO validation and Arduino/ESP-IDF code generation. Added as an upstream reference; review its current license and prerequisites before direct installation.
-- [f2daz/esp-expert-mcp](https://github.com/f2daz/esp-expert-mcp) — ESP32/ESP8266 MCP diagnostics for GPIO conflicts, partitions, panic logs and chip information. Optional MCP server; requires Python 3.11+ and uv.
-- [doeslater/esp32-arduino](https://github.com/doeslater/esp32-arduino) — Arduino CLI workflow for compiling, flashing and debugging ESP32 sketches; narrower and focused on classic ESP32 DevKitC/WROOM-32.
-- Local [esp32-arduino-dev](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev) — curated workflow for ESP32 DevKit V1 + Arduino IDE/CLI, with GPIO/electrical safety checks, version-aware code, reproducible builds and explicit approval before flashing. Not a full mirror of the upstream projects.
+- Local [esp32-arduino-dev](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev) — project-specific workflow for ESP32 DevKit V1 + Arduino IDE/CLI, with hardware safety, version-aware APIs, reproducible builds and explicit approval before flashing.
+- Local [esp32-arduino-cli](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-cli) — adapted from [doeslater/esp32-arduino](https://github.com/doeslater/esp32-arduino); MIT-licensed skill for transparent compile/upload/monitor using Arduino CLI. Tested upstream on classic ESP32 DevKitC/WROOM-32; this is not evidence that every DevKit V1 clone was tested.
+- [f2daz/esp-expert-mcp](https://github.com/f2daz/esp-expert-mcp) — upstream plugin and MCP server for ESP32/ESP8266 pin checks, partitions, panic logs and chip information. MIT; optional server requires Python 3.11+ and uv.
+- [lookfwd/arduino-cli-claude-plugin](https://github.com/lookfwd/arduino-cli-claude-plugin) — upstream Arduino CLI commands for board detection, sketch creation, libraries, compile and upload. Registered as an upstream plugin; inspect its permissions and license before enabling.
+- [wokwi/skills](https://github.com/wokwi/skills) — upstream MIT-licensed simulation skills for firmware testing, scripted peripherals, debugging and CI. Several workflows are ESP-IDF-oriented; Wokwi tooling may be required.
+- Existing [esp32-arduino-dev](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev) remains the main project-specific guidance for this user's classic ESP32 DevKit V1 + Arduino IDE workflow.
+
 
 ## Automotive and electronics
 There is no single widely established Claude skill pack that can replace OEM service information or component datasheets. Original local skills are included for automotive diagnostics and electronics engineering. Pair them with authoritative service manuals, wiring diagrams, datasheets and applicable standards.
