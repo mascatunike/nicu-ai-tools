@@ -15,6 +15,21 @@ This catalog links to upstream projects. The local folders created for some entr
 - [trailofbits/skills](https://github.com/trailofbits/skills) — application security and secure development; check per-skill license.
 - [anthropics/skills](https://github.com/anthropics/skills) — official skill examples, frontend design, web app testing and document workflows.
 
+## Research and academic
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — full academic research pipeline: deep research, paper writing, peer review, systematic reviews, PRISMA screening, citation verification. **58.5k stars**. Ideal for medical/NICU research. CC-BY-NC-4.0.
+
+## Finance and trading
+- [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) — structured trading workflows: market regime analysis, portfolio review, swing trading, risk management, trade journaling, backtesting. **8.4k stars**. Workflow patterns adaptable to clinical protocols. MIT.
+
+## Security
+- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — 100+ offensive security skills: SQLi, XSS, SSRF, RCE, Active Directory, EDR evasion, exploit development, wireless, cloud, mobile, IoT, supply chain. **11.5k stars**. For authorized security testing of medical devices/IoT. MIT.
+- [trailofbits/skills](https://github.com/trailofbits/skills) — application security and secure development; check per-skill license.
+
+## Reference and discovery
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — curated list of 1000+ production-ready Claude skills across all domains. **80.3k stars**. Includes document processing, development tools, data analysis, business, creative, productivity, security, and 78 SaaS app automations via Composio MCP. Apache-2.0.
+- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — 410+ skills for Claude Code. **30.5k stars**.
+- [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) — 71 specialized skills for full-stack developers. **12.5k stars**.
+
 ## Embedded systems and microcontrollers
 - Local [esp32-arduino-dev](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev) — project-specific workflow for ESP32 DevKit V1 + Arduino IDE/CLI, with hardware safety, version-aware APIs, reproducible builds and explicit approval before flashing.
 - Local [esp32-arduino-cli](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-cli) — adapted from [doeslater/esp32-arduino](https://github.com/doeslater/esp32-arduino); MIT-licensed skill for transparent compile/upload/monitor using Arduino CLI. Tested upstream on classic ESP32 DevKitC/WROOM-32; this is not evidence that every DevKit V1 clone was tested.
@@ -22,7 +37,6 @@ This catalog links to upstream projects. The local folders created for some entr
 - [lookfwd/arduino-cli-claude-plugin](https://github.com/lookfwd/arduino-cli-claude-plugin) — upstream Arduino CLI commands for board detection, sketch creation, libraries, compile and upload. Registered as an upstream plugin; inspect its permissions and license before enabling.
 - [wokwi/skills](https://github.com/wokwi/skills) — upstream MIT-licensed simulation skills for firmware testing, scripted peripherals, debugging and CI. Several workflows are ESP-IDF-oriented; Wokwi tooling may be required.
 - Existing [esp32-arduino-dev](https://github.com/mascatunike/nicu-ai-tools/tree/main/plugins/esp32-arduino-dev) remains the main project-specific guidance for this user's classic ESP32 DevKit V1 + Arduino IDE workflow.
-
 
 ## Automotive and electronics
 There is no single widely established Claude skill pack that can replace OEM service information or component datasheets. Original local skills are included for automotive diagnostics and electronics engineering. Pair them with authoritative service manuals, wiring diagrams, datasheets and applicable standards.

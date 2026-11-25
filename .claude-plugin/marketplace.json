@@ -331,6 +331,102 @@
       ],
       "homepage": "https://github.com/wokwi/skills",
       "license": "MIT"
+    },
+    {
+      "name": "academic-research-skills",
+      "source": {
+        "source": "github",
+        "repo": "Imbad0202/academic-research-skills"
+      },
+      "description": "Full academic research pipeline: deep research, paper writing, peer review, systematic reviews, PRISMA screening, citation verification. Ideal for medical/NICU research.",
+      "version": "3.24.4",
+      "author": {
+        "name": "Imbad0202"
+      },
+      "category": "research",
+      "keywords": [
+        "academic",
+        "research",
+        "paper",
+        "systematic-review",
+        "peer-review",
+        "literature-review",
+        "medical",
+        "nicu"
+      ],
+      "homepage": "https://github.com/Imbad0202/academic-research-skills",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "name": "claude-trading-skills",
+      "source": {
+        "source": "github",
+        "repo": "tradermonty/claude-trading-skills"
+      },
+      "description": "Structured trading workflows: market regime analysis, portfolio review, swing trading, risk management, trade journaling, backtesting. Workflow patterns adaptable to clinical protocols.",
+      "version": "1.0.0",
+      "author": {
+        "name": "tradermonty"
+      },
+      "category": "finance",
+      "keywords": [
+        "trading",
+        "portfolio",
+        "risk-management",
+        "backtesting",
+        "market-analysis",
+        "workflow"
+      ],
+      "homepage": "https://github.com/tradermonty/claude-trading-skills",
+      "license": "MIT"
+    },
+    {
+      "name": "claude-red",
+      "source": {
+        "source": "github",
+        "repo": "SnailSploit/Claude-Red"
+      },
+      "description": "100+ offensive security skills: SQLi, XSS, SSRF, RCE, Active Directory, EDR evasion, exploit development, wireless, cloud, mobile, IoT, supply chain. For authorized security testing of medical devices/IoT.",
+      "version": "1.0.0",
+      "author": {
+        "name": "SnailSploit"
+      },
+      "category": "security",
+      "keywords": [
+        "red-team",
+        "penetration-testing",
+        "vulnerability-research",
+        "exploit-development",
+        "active-directory",
+        "edr-evasion",
+        "iot-security",
+        "medical-device-security"
+      ],
+      "homepage": "https://github.com/SnailSploit/Claude-Red",
+      "license": "MIT"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "source": {
+        "source": "github",
+        "repo": "ComposioHQ/awesome-claude-skills"
+      },
+      "description": "Curated list of 1000+ production-ready Claude skills across all domains. Includes document processing, development tools, data analysis, business, creative, productivity, security, and 78 SaaS app automations via Composio MCP.",
+      "version": "1.0.0",
+      "author": {
+        "name": "ComposioHQ"
+      },
+      "category": "reference",
+      "keywords": [
+        "awesome-list",
+        "skill-catalog",
+        "mcp",
+        "composio",
+        "app-automation",
+        "reference"
+      ],
+      "homepage": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "license": "Apache-2.0"
     }
   ]
 }
