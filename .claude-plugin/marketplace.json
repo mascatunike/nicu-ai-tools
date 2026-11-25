@@ -333,6 +333,145 @@
       "license": "MIT"
     },
     {
+      "name": "firmware-skills",
+      "source": {
+        "source": "github",
+        "repo": "budenga/firmware-skills"
+      },
+      "description": "Comprehensive embedded firmware skills: STM32, ESP32, PIC/dsPIC33, Zephyr RTOS, FreeRTOS, embedded Linux (Raspberry Pi, Torizon). Includes 6 agents: firmware-reviewer, crash-analyst, test-writer, datasheet-researcher, architecture-reviewer, linux-bringup-debugger. PlatformIO + Arduino + ESP-IDF support.",
+      "version": "1.0.0",
+      "author": {
+        "name": "budenga"
+      },
+      "category": "development",
+      "keywords": [
+        "firmware",
+        "embedded",
+        "stm32",
+        "esp32",
+        "pic",
+        "dsPIC33",
+        "zephyr",
+        "freertos",
+        "raspberry-pi",
+        "platformio",
+        "embedded-linux",
+        "torizon"
+      ],
+      "homepage": "https://github.com/budenga/firmware-skills",
+      "license": "MIT"
+    },
+    {
+      "name": "home-lab-developer-tools",
+      "source": {
+        "source": "github",
+        "repo": "TMHSDigital/Home-Lab-Developer-Tools"
+      },
+      "description": "22 skills + 55 MCP tools for Raspberry Pi home lab: Docker Compose, monitoring (Prometheus/Grafana), DNS (AdGuard), reverse proxy (NPM), backups (Restic), SSH, Ansible, security hardening, logs, notifications, OS updates, certificates, multi-node, storage, troubleshooting. Includes MCP server for live SSH access to Pi.",
+      "version": "0.24.0",
+      "author": {
+        "name": "TMHSDigital"
+      },
+      "category": "infrastructure",
+      "keywords": [
+        "raspberry-pi",
+        "homelab",
+        "docker-compose",
+        "monitoring",
+        "prometheus",
+        "grafana",
+        "dns",
+        "reverse-proxy",
+        "backup",
+        "ssh",
+        "ansible",
+        "security",
+        "mcp",
+        "multi-node"
+      ],
+      "homepage": "https://github.com/TMHSDigital/Home-Lab-Developer-Tools",
+      "license": "CC-BY-NC-ND-4.0"
+    },
+    {
+      "name": "kicad-happy",
+      "source": {
+        "source": "github",
+        "repo": "aklofas/kicad-happy"
+      },
+      "description": "AI-powered KiCad electronics design: schematic/PCB/Gerber parsing, subcircuit detection, SPICE simulation (ngspice/LTspice), EMC pre-compliance (44 rules, FCC/CISPR/automotive), datasheet extraction (DigiKey/Mouser/LCSC), BOM management, JLCPCB/PCBWay fabrication export. 1.8k stars.",
+      "version": "3.0.2",
+      "author": {
+        "name": "aklofas"
+      },
+      "category": "hardware",
+      "keywords": [
+        "kicad",
+        "pcb",
+        "schematic",
+        "gerber",
+        "spice",
+        "emc",
+        "datasheets",
+        "bom",
+        "jlcpcb",
+        "pcbway",
+        "electronics",
+        "hardware-design"
+      ],
+      "homepage": "https://github.com/aklofas/kicad-happy",
+      "license": "MIT"
+    },
+    {
+      "name": "opendbc",
+      "source": {
+        "source": "github",
+        "repo": "commaai/opendbc"
+      },
+      "description": "Automotive CAN bus database: 3.6k stars. Python API for car control (steering, gas, brakes), DBC file repository for 300+ car models, CAN message parsing/building, safety firmware for panda hardware. Used by openpilot. Ideal for automotive reverse engineering, diagnostics, car data extraction.",
+      "version": "1.0.0",
+      "author": {
+        "name": "commaai"
+      },
+      "category": "automotive",
+      "keywords": [
+        "automotive",
+        "can-bus",
+        "dbc",
+        "reverse-engineering",
+        "car-control",
+        "openpilot",
+        "panda",
+        "vehicle-data"
+      ],
+      "homepage": "https://github.com/commaai/opendbc",
+      "license": "MIT"
+    },
+    {
+      "name": "aurora-smart-home",
+      "source": {
+        "source": "github",
+        "repo": "tonylofgren/aurora-smart-home"
+      },
+      "description": "Complete smart home skills: Home Assistant, ESPHome, Node-RED, custom integrations, dashboards, hardware designs. 112 stars. Covers ESP32 firmware, automations, Lovelace UI, fabrication-ready hardware.",
+      "version": "1.0.0",
+      "author": {
+        "name": "tonylofgren"
+      },
+      "category": "iot",
+      "keywords": [
+        "home-assistant",
+        "esphome",
+        "node-red",
+        "esp32",
+        "smart-home",
+        "iot",
+        "automation",
+        "dashboard"
+      ],
+      "homepage": "https://github.com/tonylofgren/aurora-smart-home",
+      "license": "MIT"
+    },
+    {
       "name": "academic-research-skills",
       "source": {
         "source": "github",

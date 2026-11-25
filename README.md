@@ -22,10 +22,15 @@ Personal Claude plugins and skills maintained by **mascatunike**.
 | `esp-expert` | ESP32/ESP8266 firmware engineering with MCP diagnostics (upstream MIT) |
 | `arduino-cli` | Arduino CLI plugin: board detection, sketch creation, libraries, compile, upload (upstream) |
 | `wokwi` | Wokwi embedded firmware simulation for ESP32 testing, debugging, CI (upstream MIT) |
-| `academic-research-skills` | **Full academic research pipeline**: deep research, paper writing, peer review, systematic reviews, PRISMA screening, citation verification (58.5k ⭐, CC-BY-NC-4.0) |
-| `claude-trading-skills` | **Structured trading workflows**: market regime, portfolio review, swing trading, risk management, journaling, backtesting (8.4k ⭐, MIT) |
-| `claude-red` | **100+ offensive security skills**: SQLi, XSS, SSRF, RCE, AD, EDR evasion, exploit dev, wireless, cloud, IoT (11.5k ⭐, MIT) |
-| `awesome-claude-skills` | **Curated 1000+ skills catalog** across all domains: docs, dev, data, business, creative, productivity, security, 78 SaaS automations (80.3k ⭐, Apache-2.0) |
+| `firmware-skills` | **Comprehensive embedded firmware**: STM32, ESP32, PIC/dsPIC33, Zephyr, FreeRTOS, embedded Linux (Pi, Torizon). 6 agents. PlatformIO + Arduino + ESP-IDF (1.0.0, MIT) |
+| `home-lab-developer-tools` | **Raspberry Pi homelab**: 22 skills + 55 MCP tools for Docker, monitoring, DNS, backup, SSH, Ansible, security, multi-node. MCP server for live Pi access (0.24.0, CC-BY-NC-ND-4.0) |
+| `kicad-happy` | **AI-powered KiCad electronics design**: schematic/PCB/Gerber parsing, SPICE simulation, EMC pre-compliance, datasheet extraction, BOM management, JLCPCB/PCBWay export (3.0.2, 1.8k ⭐, MIT) |
+| `opendbc` | **Automotive CAN bus database**: Python API for car control, 300+ car models DBC files, CAN parsing, safety firmware (1.0.0, 3.6k ⭐, MIT) |
+| `aurora-smart-home` | **Complete smart home**: Home Assistant, ESPHome, Node-RED, ESP32 firmware, automations, dashboards, hardware (1.0.0, 112 ⭐, MIT) |
+| `academic-research-skills` | **Full academic research pipeline**: deep research, paper writing, peer review, systematic reviews, PRISMA, citation verification (3.24.4, 58.5k ⭐, CC-BY-NC-4.0) |
+| `claude-trading-skills` | **Structured trading workflows**: market regime, portfolio review, swing trading, risk management, journaling, backtesting (1.0.0, 8.4k ⭐, MIT) |
+| `claude-red` | **100+ offensive security skills**: SQLi, XSS, SSRF, RCE, AD, EDR evasion, exploit dev, wireless, cloud, IoT (1.0.0, 11.5k ⭐, MIT) |
+| `awesome-claude-skills` | **Curated 1000+ skills catalog** across all domains: docs, dev, data, business, creative, productivity, security, 78 SaaS automations (1.0.0, 80.3k ⭐, Apache-2.0) |
 
 ## Install with Claude Code
 
@@ -54,6 +59,11 @@ Then install any plugin from the catalog:
 /plugin install esp-expert@nicu-ai-tools
 /plugin install arduino-cli@nicu-ai-tools
 /plugin install wokwi@nicu-ai-tools
+/plugin install firmware-skills@nicu-ai-tools
+/plugin install home-lab-developer-tools@nicu-ai-tools
+/plugin install kicad-happy@nicu-ai-tools
+/plugin install opendbc@nicu-ai-tools
+/plugin install aurora-smart-home@nicu-ai-tools
 /plugin install academic-research-skills@nicu-ai-tools
 /plugin install claude-trading-skills@nicu-ai-tools
 /plugin install claude-red@nicu-ai-tools
@@ -94,10 +104,15 @@ Anthropic's `anthropics/skills` repository is itself a separate marketplace, not
 - [f2daz/esp-expert-mcp](https://github.com/f2daz/esp-expert-mcp) — ESP32/ESP8266 MCP diagnostics
 - [lookfwd/arduino-cli-claude-plugin](https://github.com/lookfwd/arduino-cli-claude-plugin) — Arduino CLI commands
 - [wokwi/skills](https://github.com/wokwi/skills) — embedded firmware simulation
-- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — academic research pipeline
-- [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) — trading workflows
-- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — offensive security skills
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 1000+ skills catalog
+- [budenga/firmware-skills](https://github.com/budenga/firmware-skills) — comprehensive embedded firmware (STM32, ESP32, PIC, Zephyr, FreeRTOS, Pi)
+- [TMHSDigital/Home-Lab-Developer-Tools](https://github.com/TMHSDigital/Home-Lab-Developer-Tools) — Raspberry Pi homelab (22 skills + 55 MCP tools)
+- [aklofas/kicad-happy](https://github.com/aklofas/kicad-happy) — KiCad electronics design (1.8k ⭐)
+- [commaai/opendbc](https://github.com/commaai/opendbc) — Automotive CAN bus database (3.6k ⭐)
+- [tonylofgren/aurora-smart-home](https://github.com/tonylofgren/aurora-smart-home) — Smart home / ESPHome / Home Assistant (112 ⭐)
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — academic research pipeline (58.5k ⭐)
+- [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) — trading workflows (8.4k ⭐)
+- [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — offensive security (11.5k ⭐)
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 1000+ skills catalog (80.3k ⭐)
 
 ## Third-party attribution
 
@@ -121,3 +136,4 @@ The `ecc` plugin is a curated subset of [affaan-m/ECC](https://github.com/affaan
 - The upstream PowerShell scripts are documented as experimental.
 - `claude-red` is for authorized security testing only. Ensure you have proper authorization before using offensive security skills.
 - `academic-research-skills` is CC-BY-NC-4.0 (non-commercial use only).
+- `home-lab-developer-tools` is CC-BY-NC-ND-4.0 (non-commercial, no derivatives).
