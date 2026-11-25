@@ -36,6 +36,10 @@ This catalog links to upstream projects. The local folders created for some entr
 ## Smart home / IoT
 - [tonylofgren/aurora-smart-home](https://github.com/tonylofgren/aurora-smart-home) — Complete smart home skills: Home Assistant, ESPHome, Node-RED, custom integrations, dashboards, hardware designs. **112 stars**. Covers ESP32 firmware, automations, Lovelace UI, fabrication-ready hardware. MIT.
 
+## Reverse Engineering (Universal)
+- [EncidXVII/claude-reverse-engineering-skill](https://github.com/EncidXVII/claude-reverse-engineering-skill) — **Universal reverse engineering**: ELF, PE, Mach-O, Android (APK/AAB/DEX), iOS/macOS (IPA), .NET & Java bytecode, JS/Electron/WASM, frameworks (Flutter, React Native, Unity), installers, firmware, network protocols, malware. Headless Ghidra export, jadx, rizin, Frida, MCP integration. **64 stars**. Apache-2.0.
+- [1llu50ry/Decompile](https://github.com/1llu50ry/Decompile) — **MCP server for RE**: **6000+ skills**, **230+ MCP tools**, **60+ RE backends** (Ghidra, IDA Pro, Binary Ninja, radare2, x64dbg, WinDbg, Frida, Cheat Engine, angr, Volatility, YARA). Native PE/ELF/Mach-O/DEX/WASM/.NET/IL2CPP/ASAR parsers. Agent mesh, hub consensus decompile. **616 stars**. MIT.
+
 ## Research and academic
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — full academic research pipeline: deep research, paper writing, peer review, systematic reviews, PRISMA screening, citation verification. **58.5k stars**. Ideal for medical/NICU research. CC-BY-NC-4.0.
 

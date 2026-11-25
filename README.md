@@ -27,6 +27,8 @@ Personal Claude plugins and skills maintained by **mascatunike**.
 | `kicad-happy` | **AI-powered KiCad electronics design**: schematic/PCB/Gerber parsing, SPICE simulation, EMC pre-compliance, datasheet extraction, BOM management, JLCPCB/PCBWay export (3.0.2, 1.8k ⭐, MIT) |
 | `opendbc` | **Automotive CAN bus database**: Python API for car control, 300+ car models DBC files, CAN parsing, safety firmware (1.0.0, 3.6k ⭐, MIT) |
 | `aurora-smart-home` | **Complete smart home**: Home Assistant, ESPHome, Node-RED, ESP32 firmware, automations, dashboards, hardware (1.0.0, 112 ⭐, MIT) |
+| `reverse-engineering` | **Universal RE**: ELF, PE, Mach-O, Android, iOS, .NET, Java, JS/Electron/WASM, firmware, malware. Headless Ghidra, jadx, rizin, Frida, MCP (1.0.0, 64 ⭐, Apache-2.0) |
+| `decompile` | **MCP server for RE**: 6000+ skills, 230+ MCP tools, 60+ backends (Ghidra, IDA, Binary Ninja, radare2, x64dbg, WinDbg, Frida, Cheat Engine, angr, Volatility, YARA). Native PE/ELF/Mach-O/DEX/WASM/.NET/IL2CPP parsers. Agent mesh, hub consensus (5.0.0, 616 ⭐, MIT) |
 | `academic-research-skills` | **Full academic research pipeline**: deep research, paper writing, peer review, systematic reviews, PRISMA, citation verification (3.24.4, 58.5k ⭐, CC-BY-NC-4.0) |
 | `claude-trading-skills` | **Structured trading workflows**: market regime, portfolio review, swing trading, risk management, journaling, backtesting (1.0.0, 8.4k ⭐, MIT) |
 | `claude-red` | **100+ offensive security skills**: SQLi, XSS, SSRF, RCE, AD, EDR evasion, exploit dev, wireless, cloud, IoT (1.0.0, 11.5k ⭐, MIT) |
@@ -64,6 +66,8 @@ Then install any plugin from the catalog:
 /plugin install kicad-happy@nicu-ai-tools
 /plugin install opendbc@nicu-ai-tools
 /plugin install aurora-smart-home@nicu-ai-tools
+/plugin install reverse-engineering@nicu-ai-tools
+/plugin install decompile@nicu-ai-tools
 /plugin install academic-research-skills@nicu-ai-tools
 /plugin install claude-trading-skills@nicu-ai-tools
 /plugin install claude-red@nicu-ai-tools
@@ -109,6 +113,8 @@ Anthropic's `anthropics/skills` repository is itself a separate marketplace, not
 - [aklofas/kicad-happy](https://github.com/aklofas/kicad-happy) — KiCad electronics design (1.8k ⭐)
 - [commaai/opendbc](https://github.com/commaai/opendbc) — Automotive CAN bus database (3.6k ⭐)
 - [tonylofgren/aurora-smart-home](https://github.com/tonylofgren/aurora-smart-home) — Smart home / ESPHome / Home Assistant (112 ⭐)
+- [EncidXVII/claude-reverse-engineering-skill](https://github.com/EncidXVII/claude-reverse-engineering-skill) — Universal RE: ELF/PE/Mach-O/Android/iOS/.NET/Java/firmware (64 ⭐)
+- [1llu50ry/Decompile](https://github.com/1llu50ry/Decompile) — MCP server: 6000+ skills, 230+ tools, 60+ RE backends (616 ⭐)
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — academic research pipeline (58.5k ⭐)
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) — trading workflows (8.4k ⭐)
 - [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — offensive security (11.5k ⭐)

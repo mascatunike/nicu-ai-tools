@@ -566,6 +566,81 @@
       ],
       "homepage": "https://github.com/ComposioHQ/awesome-claude-skills",
       "license": "Apache-2.0"
+    },
+    {
+      "name": "reverse-engineering",
+      "source": {
+        "source": "github",
+        "repo": "EncidXVII/claude-reverse-engineering-skill"
+      },
+      "description": "Universal reverse engineering: ELF, PE, Mach-O, Android (APK/AAB/DEX), iOS/macOS (IPA), .NET & Java bytecode, JS/Electron/WASM, frameworks (Flutter, React Native, Unity), installers, firmware, network protocols, malware. Headless Ghidra export, jadx, rizin, Frida, MCP integration. 64 stars.",
+      "version": "1.0.0",
+      "author": {
+        "name": "EncidXVII"
+      },
+      "category": "security",
+      "keywords": [
+        "reverse-engineering",
+        "decompiler",
+        "ghidra",
+        "jadx",
+        "rizin",
+        "radare2",
+        "frida",
+        "android",
+        "ios",
+        "pe",
+        "elf",
+        "mach-o",
+        "dotnet",
+        "java",
+        "firmware",
+        "malware",
+        "ctf"
+      ],
+      "homepage": "https://github.com/EncidXVII/claude-reverse-engineering-skill",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "decompile",
+      "source": {
+        "source": "github",
+        "repo": "1llu50ry/Decompile"
+      },
+      "description": "MCP server for reverse engineering: 6000+ skills, 230+ MCP tools, 60+ RE backends (Ghidra, IDA Pro, Binary Ninja, radare2, x64dbg, WinDbg, Frida, Cheat Engine, angr, Volatility, YARA). Native PE/ELF/Mach-O/DEX/WASM/.NET/IL2CPP/ASAR parsers. Agent mesh, hub consensus decompile. 616 stars.",
+      "version": "5.0.0",
+      "author": {
+        "name": "1llu50ry"
+      },
+      "category": "security",
+      "keywords": [
+        "reverse-engineering",
+        "decompiler",
+        "ghidra",
+        "ida-pro",
+        "binary-ninja",
+        "radare2",
+        "x64dbg",
+        "windbg",
+        "frida",
+        "cheat-engine",
+        "angr",
+        "volatility",
+        "yara",
+        "mcp",
+        "pe",
+        "elf",
+        "mach-o",
+        "dex",
+        "wasm",
+        "dotnet",
+        "il2cpp",
+        "game-hacking",
+        "malware-analysis",
+        "firmware"
+      ],
+      "homepage": "https://github.com/1llu50ry/Decompile",
+      "license": "MIT"
     }
   ]
 }
